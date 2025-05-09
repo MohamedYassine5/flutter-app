@@ -23,12 +23,16 @@ class _SplashState extends State<Splash> {
             color: maincolor,
             child: Column(
               children: [
-                TextComponent(
-                  text: "BuyShap",
-                  txtsize: 50,
-                  color: buychapColor,
-                  fw: FontWeight.bold,
+                Image.asset(
+                  "assets/images/logoSplash.png",
+                  height: 100,
+                  width: 100,
                 ),
+
+                // text: "BuyShap",
+                // txtsize: 50,
+                // color: buychapColor,
+                // fw: FontWeight.bold,
                 TextComponent(
                   text: "Bienvenue Djo faut faire on va aller vite oubien !",
                   txtsize: 13.2,
