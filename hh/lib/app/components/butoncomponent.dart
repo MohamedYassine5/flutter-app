@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hh/Utils/Colors.dart';
 
+// ignore: must_be_immutable
 class ButtonComponent extends StatelessWidget {
   String txtButton;
 
