@@ -4,6 +4,8 @@ import 'package:hh/Utils/constantes.dart';
 import 'package:hh/app/components/butoncomponent.dart';
 import 'package:hh/app/components/text_components.dart';
 import 'package:hh/app/modules/Splash/View/splash.dart';
+import 'package:hh/app/modules/Splash/Controller/controller.dart';
+import 'package:hh/app/modules/Home/home.dart';
 
 void main() {
   runApp(const MyApp());

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hh/Utils/Colors.dart';
 import 'package:hh/Utils/constantes.dart';
 import 'package:hh/app/components/text_components.dart';
+import 'package:hh/app/modules/Splash/Controller/controller.dart';
+import 'package:hh/app/modules/Home/home.dart';
 
 class Splash extends StatefulWidget {
   const Splash({super.key});
@@ -12,33 +14,33 @@ class Splash extends StatefulWidget {
 
 class _SplashState extends State<Splash> {
   @override
+  void initState() {
+    super.initState();
+    time(context);
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
         color: maincolor,
         child: Center(
           child: Container(
-            height: 110,
+            height: 217,
             width: 300,
             color: maincolor,
             child: Column(
               children: [
                 Image.asset(
                   "assets/images/logoSplash.png",
-                  height: 100,
-                  width: 100,
+                  // height: 200,
+                  // width: 300,
                 ),
-
-                // text: "BuyShap",
-                // txtsize: 50,
-                // color: buychapColor,
-                // fw: FontWeight.bold,
-                TextComponent(
-                  text: "Bienvenue Djo faut faire on va aller vite oubien !",
-                  txtsize: 13.2,
-                  color: homebg,
-                  fw: FontWeight.normal,
-                ),
+                // // TextComponent(
+                // //   text: "Bienvenue Djo faut faire on va aller vite oubien !",
+                // //   txtsize: 11,
+                // //   color: buychapColor,
+                // //   fw: FontWeight.normal,
+                // ),
               ],
             ),
           ),
