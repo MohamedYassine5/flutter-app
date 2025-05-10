@@ -19,6 +19,7 @@ class _SplashState extends State<Splash> {
     time(context);
   }
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
